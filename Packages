@@ -1,0 +1,16 @@
+Package: com.daletweaks.clocktesttweak
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Decimation <decimation001@gmail.com>
+Depends: 
+Filename: debs//daletweaks_0.0.1-24+debug_iphoneos-arm.deb
+Size: 4260
+MD5sum: 665BF74B768EE005B61902122EC07F7F
+SHA1: 7c7ca2e25ca6e0b40595059411b903beb05c4c37
+SHA256: fab85eda1bcf1c3d6601a91e576c422b39adf52a6c81c5d94d59506d3434b16e
+Section: Utilities
+Description: Test Tweak.
+Author: Jake <decimation001@gmail.com>
+Depiction: http://decimation.github.io/depictions/index.html?p=com.daletweaks.clocktesttweak
+Name: Test Tweak
+

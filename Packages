@@ -1,12 +1,23 @@
-Package: com.daletweaks.clocktesttweak
+﻿Package: com.daletweaks.clocktesttweak
+
 Name: ClockTestTweak
+
 Depends: mobilesubstrate
+
 Architecture: iphoneos-arm
+
 Description: A tweak I made bcuz noobl0rd
+
 Maintainer: Jake
+
 Author: Jake
+
 Section: Tweaks
+
 Version: 0.0.1-1
+
 MD5sum: 665bf74b768ee005b61902122ec07f7f
+
 Size: 4260
+
 Filename: debs/com.daletweaks.clocktesttweak.deb

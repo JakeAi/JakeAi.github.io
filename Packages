@@ -7,6 +7,6 @@ Maintainer: Jake
 Author: Jake
 Section: Tweaks
 Version: 0.0.1-1
-MD5sum: 665bf74b768ee005b61902122ec07f7f
-Size: 4260
-Filename: debs/com.daletweaks.clocktesttweak.deb
+MD5sum: cd32dcad16949a4ad580d713030e22e4
+Size: 4266
+Filename: debs/com.daletweaks.clocktesttweak_0.0.1-3+debug_iphoneos-arm.deb

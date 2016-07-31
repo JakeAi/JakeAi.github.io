@@ -1,8 +1,16 @@
 Origin: Jake's Repo
+
 Label: Jake Noob Repo
+
 Suite: stable
+
 Version: 1.0
+
 Codename: daletweaks
+
 Architectures: iphoneos-arm
+
 Components: main
+
 Description: My Noob Tweaks
+

@@ -1,0 +1,205 @@
+@import "bower_components/normalize-scss/normalize";
+
+/*!
+ Basic iOS 7 CSS
+ https://github.com/hbang/iOS-7-CSS
+
+ HASHBANG Productions <http://hbang.ws>
+ Apache License 2.0 <https://www.apache.org/licenses/LICENSE-2.0.html>
+ UI design copyright Apple Inc.
+*/
+
+$portrait-width: 708px;
+$landscape-width: 964px;
+
+$border-color: #c8c7cc;
+
+
+iframe {
+	border: 0;
+}
+
+a, button {
+	color: #007aff;
+	text-decoration: none;
+}
+
+.selectable {
+	-webkit-user-select: text;
+	cursor: auto;
+}
+
+
+html {
+	background: #efeff4;
+
+	.depiction {
+		background: transparent;
+	}
+}
+
+body {
+	font: 16px -apple-system-font, ".Helvetica NeueUI", "Helvetica Neue", sans-serif;
+	margin: 80px 0 35px 0;
+
+	cursor: default;
+	-webkit-user-select: none;
+
+	.cydia & {
+		margin-top: 35px;
+	}
+
+	.depiction & {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+#content {
+	@media (min-width: $portrait-width) {
+		width: $portrait-width;
+		margin: 0 auto;
+	}
+
+	@media (min-width: $landscape-width) {
+		width: $landscape-width;
+	}
+}
+
+
+h2, body > p, p[role="footer"] {
+	margin: 15px;
+	color: #6d6d72;
+	font-size: 14px;
+	font-weight: 400;
+
+	@media (min-width: $portrait-width) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+h2 {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+
+	a {
+		color: inherit;
+
+		&:hover, &:focus, &:active {
+			text-decoration: underline;
+		}
+	}
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid $border-color;
+}
+
+
+body > header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	z-index: 10;
+	background: #f7f7f7;
+	border-bottom: 1px solid #c9c9cd;
+
+	h1 {
+		margin: 0;
+		text-align: center;
+		font-size: 18px;
+		line-height: 44px;
+		font-weight: 500;
+	}
+
+	.cydia & {
+		display: none;
+	}
+
+	.cydia & + p {
+		margin-top: -20px;
+	}
+}
+
+ul {
+	margin: 5px 0 35px 0;
+	padding: 0;
+	list-style: none;
+	background: #fff;
+
+	&:before, &:after {
+		content: "";
+		display: block;
+		height: 1px;
+		background: $border-color;
+
+		@media (min-width: $portrait-width) {
+			display: none;
+		}
+	}
+
+	li {
+		border-bottom: 1px solid $border-color;
+		margin-left: 15px;
+		padding: 13px 15px 13px 0;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		p, [role=link], [role=button] {
+			padding: 13px 15px;
+			margin: -13px -15px;
+
+			+ p {
+				padding-top: 0;
+				margin-top: 0;
+			}
+		}
+
+		[role=link], [role=button] {
+			display: block;
+			color: #007aff;
+			padding-right: 30px;
+
+			position: relative;
+			z-index: 2;
+
+			&:after {
+				content: "";
+				display: block;
+				background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=");
+
+				position: absolute;
+				top: 50%;
+				right: 15px;
+				width: 10px;
+				height: 13px;
+				margin-top: -61px;
+				background-size: 100% 100%;
+			}
+		}
+
+		> button {
+			font: inherit;
+			width: 100%;
+			text-align: left;
+		}
+
+		.pull-in {
+			vertical-align: top;
+
+			@media (max-width: $portrait-width) {
+				margin: -13px -15px;
+			}
+		}
+	}
+
+	+ p, + [role=footer] {
+		margin-top: -25px;
+	}
+}

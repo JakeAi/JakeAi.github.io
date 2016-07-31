@@ -1,8 +1,8 @@
-Origin: ちくわ's repo New!
-Label: Chikuwa repo
+Origin: Jake's Repo
+Label: Jake Noob Repo
 Suite: stable
-Version: 0.9
-Codename: tangelo
+Version: 1.0
+Codename: daletweaks
 Architectures: iphoneos-arm
 Components: main
-Description: ちくわのリポジトリ！！
+Description: My Noob Tweaks

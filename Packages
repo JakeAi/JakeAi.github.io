@@ -1,0 +1,14 @@
+Package: com.aids.makecydiabuyagain
+Version: 1.0-1
+Section: Tweaks
+Maintainer: AidsMcGhee ( lJakel ) <ljakeail@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.aids.makecydiabuyagain_1.0-1+debug_iphoneos-arm.deb
+Size: 3836
+MD5sum: 4F9D9DCD1EA8E829612076B5D25B3B4E
+Description: Makes Cydia buy again
+Name: MakeCydiaBuyAgain
+Author: AidsMcGhee <ljakeail@gmail.com>
+Depiction: https://jakeai.github.io/depictions/?p=com.aids.makecydiabuyagain
+

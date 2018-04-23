@@ -1,3 +1,4 @@
+
 Package: com.aids.makecydiabuyagain
 Version: 1.0-1+debug
 Architecture: iphoneos-arm
@@ -11,4 +12,3 @@ Section: Tweaks
 Description: Makes Cydia Buy Again
 Author: AidsMcGhee <ljakeail@gmail.com>
 Name: MakeCydiaBuyAgain
-

@@ -1,0 +1,15 @@
+<package>
+	<id>com.aids.makecydiabuyagain</id>
+	<name>MakeCydiaBuyAgain</name>
+	<version>1.0-1</version>
+	<compatibility></compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Makes Cydia buy again</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

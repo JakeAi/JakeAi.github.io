@@ -1,1 +1,0 @@
-C:\Users\Jacob\Downloads\bzip2-1.0.5-bin\bin\bzip2.exe -c "C:\Users\Jacob\Desktop\Repo\JakeAi.github.io\JakeAi.github.io\Packages" > ""C:\Users\Jacob\Desktop\Repo\JakeAi.github.io\JakeAi.github.io\Packages.bz"

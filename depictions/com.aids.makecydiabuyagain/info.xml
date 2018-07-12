@@ -3,14 +3,16 @@
 	<name>MakeCydiaBuyAgain</name>
 	<version>1.0-21+debug</version>
 	<compatibility></compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
 	<descriptionlist>
 		<description>Makes Cydia buy again</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
 		<change>Rewrote tweak.</change>
-		<change>Added a settings view to change your device and firmware.</change>
+		<change>Added a settings view to change your device and firmware. The settings button is in cydia in the top left where the old about button used to be.</change>
 	</changelog>
 	<links></links>
 </package>

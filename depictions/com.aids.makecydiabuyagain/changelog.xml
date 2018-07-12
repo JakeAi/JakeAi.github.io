@@ -8,4 +8,8 @@
 		<change>Rewrote tweak.</change>
 		<change>Added a settings view to change your device and firmware. Settings persist. Make sure you change the Device to a compatible device for the tweak you are trying to install. Obviously iOS 7 isn't on an iPhone X</change>
 	</changes>
+	<changes>
+		<version>1.0.2-1+debug</version>
+		<change>Upped Version</change>
+	</changes>
 </changelog>

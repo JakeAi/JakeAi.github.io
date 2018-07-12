@@ -1,14 +1,14 @@
 Package: com.aids.makecydiabuyagain
-Version: 1.0-86+debug
+Version: 1.0-19+debug
 Architecture: iphoneos-arm
 Maintainer: Jake Ihasz
 Installed-Size: 160
 Depends: mobilesubstrate
-Filename: debs/com.aids.makecydiabuyagain_1.0-86+debug_iphoneos-arm.deb
-Size: 17836
-MD5sum: 2a02c8b95571f45d498152ec4b8d335b
-SHA1: e03a2ec5dc1c0e13b1ab647dd254a10a98237900
-SHA256: 611622b3f319349363e3a72f0c4c4fa6d85797351abd81a7acec6ea6336033cf
+Filename: debs/com.aids.makecydiabuyagain_1.0-19+debug_iphoneos-arm.deb
+Size: 18594
+MD5sum: 29d8589ae8fa9f0550697d48d0f52431
+SHA1: ce84b461cd8c1619c5fb6b8a954a82035ff2ec39
+SHA256: 3b22291f7a5c16073c721d60ca14cb586f8294a145c8e3d976325067b8fbdd24
 Section: Tweaks
 Description: Enable Cydia to purchase any package on any version of iOS and device that is "not supported"
 Author: Jake Ihasz

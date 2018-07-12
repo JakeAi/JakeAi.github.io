@@ -13,4 +13,5 @@ Section: Tweaks
 Description: Enable Cydia to purchase any package on any version of iOS and device that is "not supported"
 Author: Jake Ihasz
 Name: MakeCydiaBuyAgain
+Depiction: https://jakeai.github.io/depictions/?p=com.aids.makecydiabuyagain
 

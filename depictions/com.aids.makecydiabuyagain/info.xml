@@ -7,7 +7,7 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Makes Cydia buy again</description>
+		<description>Makes Cydia buy again. Make sure you change the Device to a compatible device for the tweak you are trying to install. Obviously iOS 7 isn't on an iPhone X</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>

@@ -1,7 +1,7 @@
 <package>
 	<id>com.aids.makecydiabuyagain</id>
 	<name>MakeCydiaBuyAgain</name>
-	<version>1.0-21+debug</version>
+	<version>1.0-23+debug</version>
 	<compatibility></compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>

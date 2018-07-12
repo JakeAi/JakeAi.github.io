@@ -4,7 +4,7 @@
 		<change>Initial release</change>
 	</changes>
 	<changes>
-		<version>1.0-21+debug</version>
+		<version>1.0-23+debug</version>
 		<change>Rewrote tweak.</change>
 		<change>Added a settings view to change your device and firmware.</change>
 	</changes>

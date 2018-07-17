@@ -16,4 +16,8 @@
 		<version>1.0.2-4+debug</version>
 		<change>Fix for eu keyboards</change>
 	</changes>
+	<changes>
+		<version>1.0.2-87+debug</version>
+		<change>Crash fixes. Thanks LonestarX</change>
+	</changes>
 </changelog>

@@ -1,7 +1,7 @@
 <package>
 	<id>com.aids.makecydiabuyagain</id>
 	<name>MakeCydiaBuyAgain</name>
-	<version>1.0.2-1+debug</version>
+	<version>1.0.2-87+debug</version>
 	<compatibility></compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
@@ -11,6 +11,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
+	<change>Crash fixes. Thanks LonestarX</change>
 	<change>Upped Version</change>
 		<change>Rewrote tweak.</change>
 		<change>Added a settings view to change your device and firmware. The settings button is in cydia in the top left where the old about button used to be.</change>

@@ -12,7 +12,7 @@ esac
 done
 
 
-dpkg-scanpackages debs > Packages
+dpkg-scanpackages --multiversion debs > Packages
 
 
 echo "Would you like to convert the newly created Packages file into gzip/bzip2?"
